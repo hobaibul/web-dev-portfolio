@@ -138,3 +138,68 @@ main section{
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+
+/* Resume Style */
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.resume_column{
+    padding-right: 50px;
+}
+.experience_title{
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.experience_sub_title{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.experence_description{
+    color: #757575;
+    font-size: 16px;
+}
+
+.reume_btn_cv{
+    margin-top: 100px;
+}
+.reume_btn_cv button{
+    padding:20px 40px;
+}
+
+/* Footer Style  */
+footer{
+    padding-bottom: 100px;
+}
+.footer_containter{
+    display: flex;
+    gap: 100px;
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+.footer_column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+footer textarea{
+    height: 154px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
